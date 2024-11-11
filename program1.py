@@ -8,6 +8,7 @@ class Solution:
         cols = len(grid[0])
         visited=set()
         def dfs(r,c):
-            if()
+            if(r<0 or c<0 or r>=rows or c>=cols or grid[r][c]=='W' or (r,c) in visited):
+                return
                     
         return 0
