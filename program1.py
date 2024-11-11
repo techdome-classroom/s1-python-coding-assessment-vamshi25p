@@ -10,6 +10,11 @@ class Solution:
         def dfs(r,c):
             if(r<0 or c<0 or r>=rows or c>=cols or grid[r][c]=='W' or (r,c) in visited):
                 return
+            visited.add((r,c))
+            dfs(r+1,c)
+            dfs(r-1,c)
+            dfs(r,c+1)
+            dfs(r,c-1)
             
                     
         return 0
