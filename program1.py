@@ -16,5 +16,7 @@ class Solution:
             dfs(r,c+1)
             dfs(r,c-1)
             
+        count=0 
+        
                     
         return 0
