@@ -8,6 +8,6 @@ class Solution:
         cols = len(grid[0])
         visited=set()
         def dfs(r,c):
-            
+            if()
                     
         return 0
